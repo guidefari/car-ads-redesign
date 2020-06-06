@@ -146,13 +146,19 @@ header {
 /*Footer*/
 
 .main-footer-content {
+    width: 100%;
     display: flex;
+    background-color: dimgrey;
+    padding: 5rem 1rem;
+}
+.secondary-footer-content{
+    padding: 1rem;
 }
 
 .main-footer-content section{
     width: 25%;
     padding: 5px;
-    border: 2px solid red;
+    
 }
 
 #newsletter-form{
