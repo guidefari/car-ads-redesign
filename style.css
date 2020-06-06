@@ -1,0 +1,163 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+main{
+    padding: 2rem;
+}
+
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+
+li {
+    text-decoration: none;
+}
+
+/*All header related styling*/
+header {
+    background-color: dimgrey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.logo-wrapper{
+    margin: auto 1rem;
+    display: inline-block;
+    width: 50%;
+}
+.nav-search-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 1rem;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.input-wrapper{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.links > li > a{
+    text-decoration: none;
+}
+
+/*All Banner related styling*/
+
+.banner{
+    display: inline-block;
+    width: 100%;
+}
+
+.image-wrapper{
+    height: 70vh;
+}
+
+.banner-button{
+    margin:15%;
+    position: relative;
+}
+
+.button-wrapper{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+.image-wrapper {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./banner.jpeg);
+}
+
+.banner-cta{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem 1rem;
+}
+
+.cta-button-wrapper{
+    padding: 0 10%;
+}
+
+/* All services section styling*/
+
+.services-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.service {
+    width: 33.33%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.service  img{
+    height: 100px;
+    width: 100px;
+    background-color: dimgrey;
+}
+
+.service-text-wrapper{
+    padding: 5px;
+    width: 75%;
+}
+
+/*Mid section*/
+
+.showcase{
+    display: flex;
+    flex-direction: row;
+}
+
+.showcase-item{
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+
+.showcase-image{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+/*Footer*/
+
+.main-footer-content {
+    display: flex;
+}
+
+.main-footer-content section{
+    width: 25%;
+    padding: 5px;
+    border: 2px solid red;
+}
+
+#newsletter-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
